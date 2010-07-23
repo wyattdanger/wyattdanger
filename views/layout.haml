@@ -1,0 +1,12 @@
+!!! Strict
+%html
+  %head
+    :plain
+      <meta http-equiv="Content-Type" content="text/html;charset=utf-8" /> 
+      <meta name="description" content=""/> 
+      <meta name="keywords" content="" />
+    %link{:rel=>"stylesheet", :type=>"text/css", :href=>"/media/css/site.css"}
+    %title Site Title
+  %body
+    = yield
+    %script{:type=>"text/javascript", :src=>"/media/js/site.js"}
