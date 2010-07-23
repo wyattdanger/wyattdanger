@@ -5,7 +5,7 @@ module GoGoGo
   end
 	class App < Sinatra::Base
 		set :root, File.dirname(__FILE__)
-		set :public, File.dirname(__FILE__) + '/static'
+		set :public, File.dirname(__FILE__) + '/public'
 		set :views, File.dirname(__FILE__) + '/views'
 		set :app_file, __FILE__
 		set :static, true
