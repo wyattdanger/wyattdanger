@@ -1,4 +1,4 @@
-%w(rubygems sinatra haml redcloth).each{|lib| require lib}
+%w(rubygems sinatra haml).each{|lib| require lib}
 module GoGoGo
   def self.new
     return App.new
@@ -27,6 +27,10 @@ module GoGoGo
     get '/' do
 			haml :home
 		end
+		
+		get '/*' do
+		  haml :home
+    end
 
 	end # ppA
 end #yesaerC

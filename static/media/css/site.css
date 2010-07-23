@@ -22,3 +22,22 @@ body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-s
 .lastUnit{display:table-cell;float:none;width:auto;*display:block;*zoom:1;_position:relative;_left:-3px;_margin-right:-3px;}
 
 /* site specific */
+html, body {height: 100%; width: 100%;}
+h1 {  
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    text-shadow: none;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+    line-height: 1em;
+    position:absolute; 
+    top: 50%; 
+    margin-top: -32px;
+    margin: -40px auto 0;
+    text-align: center; 
+    width: 100%;
+    }
