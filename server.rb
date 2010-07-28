@@ -15,22 +15,20 @@ module GoGoGo
 				haml ('_'+page.to_s).intern, :layout => false
 			end
 		end
-		
-		get '/:pagename' do
-      haml params[:pagename].intern
-		end
-		
-		get '/p/:pagename' do
-		  p_ params[:pagename].intern
-		end
     
     get '/' do
 			haml :home
 		end
 		
+		get '/awesome' do
+      haml :awesome, :layout=>false
+    end
+		
 		get '/*' do
 		  haml :home
     end
+    
+
 
 	end # ppA
 end #yesaerC
