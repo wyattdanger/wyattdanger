@@ -23,8 +23,11 @@ body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-s
 
 /* site specific */
 html, body {height: 100%; width: 100%;}
+body {background: #eee url(/media/images/moon.jpg) 50% 0 repeat-x;}
 h1 {  
     font-family: 'IM Fell DW Pica SC', serif;
+    color: #000;
+    opacity: 0.8;
     font-size: 65px;
     font-style: normal;
     font-weight: 400;
