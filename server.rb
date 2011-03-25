@@ -20,10 +20,6 @@ module GoGoGo
       haml :home
     end
 
-    get '/awesome' do
-      haml :awesome, :layout=>false
-    end
-
     get '/*' do
       haml :home
     end
